@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+
+# Secrets and Configuration
+.env
+.env.local
+.env.secret
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+assets/*.png
+assets/*.jpg
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+scientific_rag/
+venv/
+.venv/
+
+# Datasets (Large Files)
+dataset/
+*.json
+*.csv
+
+models/
+*.bin
+*.pth
+*.onnx
