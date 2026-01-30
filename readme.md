@@ -32,6 +32,8 @@ The core idea is to go beyond simple keyword matching, using an intelligent agen
 * **Multi-Source Information Synthesis:** Integrates both internal knowledge (arXiv dataset) and real-time web search (Tavily API) to provide comprehensive answers.
 * **Safety Guardrails:** Includes a preliminary guardrail to filter out unsafe or off-topic queries, ensuring responsible AI usage.
 * **Real-time Interaction (WebSockets):** Offers a live, streaming experience for updates on the agent's thought process and final answers, ideal for dynamic frontend integration.
+
+![Interactive Frontend](./frontend.png)
 * **Modular and Extensible:** Designed with a clear separation of concerns, making it easy to add new tools, update models, or integrate different data sources.
 
 ## 3. Architecture
@@ -53,12 +55,10 @@ The system is built around a LangGraph-powered agent that acts as an intelligent
 9.  **Real-time Streaming:** Updates and the final answer are streamed back to the user via WebSockets.
 
 Here's a visual representation of the LangGraph architecture:
-
-http://googleusercontent.com/image_generation_content/0
-
+![Agent Architecture](./graph.png)
 
 
-*(Note: The `graph.png` placeholder shows the visual structure of your LangGraph agent. Ensure this image is updated with a current graph visualization.)*
+
 
 ## 4. Getting Started
 
